@@ -1,0 +1,131 @@
+print("hi!")
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("PMW")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Main")
+
+KillingCheats:CreateToggle("Auto Videos", function(value)
+getgenv().k = value
+
+if getgenv().k == true then
+while getgenv().k == true do
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+game:GetService("ReplicatedStorage").Remotes.CreateVideo:InvokeServer()
+wait()
+end
+end
+end)
+
+KillingCheats:CreateToggle("Auto Upload", function(value)
+        getgenv().L = value
+
+if getgenv().L == true then
+while getgenv().L == true do
+wait(1)
+game:GetService("ReplicatedStorage").Remotes.UploadVideo:InvokeServer()
+
+end
+end
+end)
+
+KillingCheats:CreateToggle("Auto Gift (bug)", function(value)
+getgenv().G = value 
+
+if getgenv().G == true then
+while getgenv().G == true do
+wait()
+local args = {
+    [1] = "Gift1"
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClaimGift:InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Gift2"
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClaimGift:InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Gift3"
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClaimGift:InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Gift4"
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClaimGift:InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Gift5"
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClaimGift:InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Gift6"
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClaimGift:InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Gift7"
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClaimGift:InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Gift8"
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClaimGift:InvokeServer(unpack(args))
+end
+end
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("YT: @masket_smile6013")
